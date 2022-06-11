@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>4-Comments</name>
+    </assembly>
+    <members>
+        <member name="M:Comments.Program.Main(System.String[])">
+            XML Documentation Comment 
+            Help Provide Documentation From your Source Code
+            <summary>
+            This is Our Main Function
+            </summary>
+            <param name='args'> an Array of Strings Arguments </param>
+            <returns>
+            No Return Value
+            </returns>
+        </member>
+    </members>
+</doc>
