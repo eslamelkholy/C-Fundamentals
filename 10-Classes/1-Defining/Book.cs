@@ -1,6 +1,6 @@
 using System;
 
-namespace Classes
+namespace Defining
 {
 
   public class Book
