@@ -15,9 +15,10 @@ namespace Properties
       int pageCount
     )
     {
-      Name = name;
-      Author = author;
-      PageCount = pageCount;
+      _name = name;
+      _author = author;
+      _pageCount = pageCount;
+      ISBN = "";
     }
 
     public int PageCount { get => _pageCount; set => _pageCount = value; }
