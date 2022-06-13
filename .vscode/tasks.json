@@ -7,7 +7,7 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/Finished/Functions/Basics/Basics.csproj",
+        "${workspaceFolder}/11-Debug/11-Debug.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -19,7 +19,7 @@
       "type": "process",
       "args": [
         "publish",
-        "${workspaceFolder}/Finished/Functions/Basics/Basics.csproj",
+        "${workspaceFolder}/11-Debug/Basics.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -29,12 +29,7 @@
       "label": "watch",
       "command": "dotnet",
       "type": "process",
-      "args": [
-        "watch",
-        "run",
-        "--project",
-        "${workspaceFolder}/Finished/Functions/Basics/Basics.csproj"
-      ],
+      "args": ["watch", "run", "--project", "${workspaceFolder}/11-Debug/Basics.csproj"],
       "problemMatcher": "$msCompile"
     }
   ]
